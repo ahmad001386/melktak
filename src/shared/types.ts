@@ -1,0 +1,9 @@
+export type UserRole = "ADMIN" | "OWNER" | "BRANCH_MANAGER" | "AGENT";
+export type PropertyType = "APARTMENT" | "VILLA" | "OFFICE" | "COMMERCIAL" | "LAND" | "PENTHOUSE" | "OTHER";
+export type ListingType = "SALE" | "RENT" | "PRE_SALE" | "EXCHANGE";
+export type Visibility = "AGENCY" | "BRANCH" | "PRIVATE";
+export type CustomerType = "BUYER" | "TENANT" | "SELLER" | "LANDLORD" | "INVESTOR";
+export type LeadStatus = "NEW" | "CONTACTED" | "REQUIREMENTS_MET" | "VISIT_SCHEDULED" | "NEGOTIATING" | "WON" | "LOST" | "INACTIVE";
+export type TaskPriority = "LOW" | "MEDIUM" | "HIGH" | "URGENT";
+export type TaskType = "FOLLOW_UP" | "CALL" | "VISIT" | "MEETING" | "NEGOTIATION" | "PAYMENT_REMINDER" | "OTHER";
+export type DocumentType = "DEED" | "CONTRACT" | "IDENTITY" | "FINANCIAL" | "PERMIT" | "POWER_OF_ATTORNEY" | "OTHER";

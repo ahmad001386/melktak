@@ -1,0 +1,22 @@
+services:
+  app:
+    build: .
+    init: true
+    restart: unless-stopped
+    env_file:
+      - .env
+    environment:
+      NODE_ENV: production
+      PORT: '3000'
+      DATA_DIR: /var/lib/melktak
+    ports:
+      - '127.0.0.1:${PORT:-3000}:3000'
+    volumes:
+      - melktak-data:/var/lib/melktak
+    cap_drop:
+      - ALL
+    security_opt:
+      - no-new-privileges:true
+    stop_grace_period: 30s
+volumes:
+  melktak-data:

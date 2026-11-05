@@ -1,0 +1,6 @@
+{
+  "name": "ملک تک | سامانه جامع معاملات و املاک",
+  "description": "سیستم جامع و هوشمند مدیریت فایل‌ها، متقاضیان، قراردادها و معاملات املاک — ملک تک",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
